@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>MSB.Payments.Model</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Matt Bolton</Authors>
+    <Company>Navient</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="MSB.Core\**" />
+    <EmbeddedResource Remove="MSB.Core\**" />
+    <None Remove="MSB.Core\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="C:\Users\c69237\.nuget\packages\aliencube.azurefunctions.extensions.openapi\3.1.1\contentFiles\any\netstandard2.0\OpenApi\IOpenApiHttpTriggerContext.cs" />
+    <Compile Remove="C:\Users\c69237\.nuget\packages\aliencube.azurefunctions.extensions.openapi\3.1.1\contentFiles\any\netstandard2.0\OpenApi\OpenApiHttpTrigger.cs" />
+    <Compile Remove="C:\Users\c69237\.nuget\packages\aliencube.azurefunctions.extensions.openapi\3.1.1\contentFiles\any\netstandard2.0\OpenApi\OpenApiHttpTriggerContext.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aliencube.AzureFunctions.Extensions.OpenApi" Version="3.1.1" />
+    <PackageReference Include="AzureFunctions.Extensions.Swashbuckle" Version="1.4.4" />
+    <PackageReference Include="FluentValidation" Version="9.5.1" />
+  </ItemGroup>
+
+</Project>

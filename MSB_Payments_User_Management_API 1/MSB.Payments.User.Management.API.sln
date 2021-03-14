@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSB.Payments.User.Management.API", "MSB.Payments.User.Management.API.csproj", "{DEC00B40-0AD1-4C79-A263-E179158995AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSB.Payments.Model", "..\..\MSB_Payments_Model\MSB.Payments.Model.csproj", "{358208AD-3287-4612-9EA6-1916D783C258}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEC00B40-0AD1-4C79-A263-E179158995AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC00B40-0AD1-4C79-A263-E179158995AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC00B40-0AD1-4C79-A263-E179158995AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC00B40-0AD1-4C79-A263-E179158995AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{358208AD-3287-4612-9EA6-1916D783C258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{358208AD-3287-4612-9EA6-1916D783C258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{358208AD-3287-4612-9EA6-1916D783C258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{358208AD-3287-4612-9EA6-1916D783C258}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {491E0714-467D-4E7E-AF92-69B2C3140B3D}
+	EndGlobalSection
+EndGlobal
